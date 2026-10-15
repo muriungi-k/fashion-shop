@@ -1,0 +1,26 @@
+Tool: built-in image_gen
+Prompt summary for both portraits: Reduce blur and compression artifacts; restore natural facial, hair and fabric detail; preserve subject, pose, outfit, framing, background colors and card layout. Preserve existing text and button placement without new copy.
+Note: Generated outputs reconstructed facial detail and unreadable lettering; these are AI-enhanced interpretations rather than exact restorations.
+Files: men-fashion-enhanced.png, women-fashion-enhanced.png
+
+Clean versions: men-fashion-clean.png, women-fashion-clean.png
+Tool: built-in image_gen
+Prompt: Remove all text, slogans, letters, white pill buttons and arrows. Seamlessly reconstruct underlying clothing and backdrop. Preserve model, face, pose, outfit, textures, lighting, colors, framing and portrait aspect ratio. No text, logos, buttons or watermark.
+
+File: homepage-clean.png
+Tool: built-in image_gen
+Prompt: Remove the entire SHOP NOW pill, lettering, black circle, shopping bag icon and button shadow. Reconstruct underlying coat and beige backdrop; preserve woman, pose, outfit, lighting, colors and composition. No text, logos, icons or buttons.
+
+Files: watch-clean.png, shoe-clean.png
+Tool: built-in image_gen
+Prompts: Remove all writing, headline, copy, white pill button and overlay artifacts from each attached product image. Fill with matching taupe background for the gold watch and tan background for the white sneaker. Preserve product placement, angle, colors, natural shadow and landscape composition. Gently restore blurry product detail; no text, logos, buttons or watermark.
+
+Best Selling Cloths product images: product-dress.png, product-old-money.png, product-jacket.png, product-girl.png.
+Tool: built-in image_gen.
+Prompt set: Reconstruct each of the four product photos from the user screenshot at higher resolution. Match subject, age, outfit, pose, accessories, background and framing; exclude all interface elements. Natural photographic texture. These are AI reconstructions, not exact crops of the original photos. Fourth image correction: preserve school-age child, white blouse and beige pinafore against white paneled interior.
+
+Trendy Cloths assets: images/trendy-dress.png, images/trendy-bag.png, images/trendy-hat.png, images/trendy-belt.png, images/trendy-shirt.png. Built-in image_gen used. Prompt set: faithfully reconstruct each specified photograph from the latest user screenshot, preserving subject/product, child age where applicable, colors, pose/angle, clothing, materials, lighting and composition. Increase clarity; exclude all text, UI, prices, hearts, swatches and watermark. These assets reconstruct screenshot detail rather than recover original pixels.
+
+Timeless fashion banner assets: images/timeless-model.png and images/offer-clothing-rack.png. Tool: built-in image_gen. Prompts: Extract and enhance the adult blonde model wearing a straw hat, white off-shoulder top, open white shirt and distressed blue jeans from the reference; preserve pose, colors and framing, remove background with true transparency and omit text/UI. Reconstruct the right-hand boutique clothing rack photograph with pink and cream garments on white hangers; remove discount overlay, text, buttons and UI. Images are higher-resolution AI reconstructions.
+
+All Cloths assets: images/all-tatlum.png, images/all-quiet.png, images/all-sunglasses.png, images/all-cutout.png, images/all-casual.png, images/all-kids.png. Tool: built-in image_gen. Prompt set: extract and reconstruct each of the six specified product photographs from the reference, landscape 1.42:1, preserve subject/product, age, outfit, background, pose, color, lighting and crop; enhance clarity naturally, exclude all text/UI/logos. Images are AI reconstructions rather than exact original pixels.

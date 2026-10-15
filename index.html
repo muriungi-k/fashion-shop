@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Your ultimate online destination for global fashion. Discover styles for men, women and children.">
+  <title>Fashion — Timeless Style, Everyday</title>
+  <meta name="theme-color" content="#eee9e2">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/polish.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <svg class="icon-library" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <symbol id="bag" viewBox="0 0 24 24"><path d="m5 8-2 13h18L19 8Z"/><path d="M8 9V6a4 4 0 0 1 8 0v3"/></symbol>
+    <symbol id="menu" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"/></symbol>
+    <symbol id="icon-search" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4 4"/></symbol>
+    <symbol id="arrow" viewBox="0 0 24 24"><path d="M6 18 18 6M7 6h11v11"/></symbol>
+    <symbol id="small-bag" viewBox="0 0 24 24"><rect x="5" y="5" width="14" height="15" rx="3"/><path d="M9 9a3 3 0 0 0 6 0"/></symbol>
+    <symbol id="truck" viewBox="0 0 24 24"><path d="M3 17V4h11v13M14 8h4l4 5v4h-3M8 17h8M3 17H2"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="18" r="3"/></symbol>
+    <symbol id="support" viewBox="0 0 24 24"><path d="M3 13v-2a9 9 0 0 1 18 0v7a4 4 0 0 1-4 4h-4"/><rect x="2" y="11" width="5" height="9" rx="2"/><rect x="17" y="11" width="5" height="9" rx="2"/></symbol>
+    <symbol id="guarantee" viewBox="0 0 24 24"><path d="m12 2 4 2 4 1 1 5 1 3-3 4-2 4-5 1-5-2-3-3-2-5 2-5 3-4Z"/><path d="m8 12 3 3 5-6"/></symbol>
+    <symbol id="lock" viewBox="0 0 24 24"><rect x="3" y="10" width="18" height="12" rx="3"/><path d="M7 10V6a5 5 0 0 1 10 0v4M12 15v3"/></symbol>
+  </svg>
+
+  <div class="page">
+    <header class="header">
+      <div class="topbar">
+        <a class="brand" href="index.html" aria-label="Fashion home"><svg><use href="#bag"/></svg><span class="brand-lines" aria-hidden="true"></span></a>
+        <button class="menu-button pill" aria-expanded="false" aria-controls="main-navigation"><svg class="icon"><use href="#menu"/></svg>Menu</button>
+        <div class="account-actions">
+          <button class="saved-button" aria-label="View saved items"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8L12 21l8.8-8.6a5.5 5.5 0 0 0 0-7.8Z"/></svg><span class="saved-count" hidden>0</span></button>
+          <button class="cart-button" aria-label="Open shopping bag"><svg class="icon"><use href="#bag"/></svg><span class="cart-dot"></span></button>
+          <button class="signup-button"><span class="profile-avatar" aria-hidden="true">F</span> <span>SIGN UP</span></button>
+        </div>
+      </div>
+
+      <nav class="navigation" id="main-navigation" aria-label="Main navigation">
+        <div class="filters">
+          <label class="sr-only" for="category">Categories</label>
+          <select id="category" class="pill"><option value="">Categories</option><option>Clothing</option><option>Shoes</option><option>Accessories</option></select>
+          <label class="sr-only" for="collection">Collection</label>
+          <select id="collection" class="pill"><option value="all">All Products</option><option value="best">Best Sellers</option><option value="trendy">Trending</option><option value="price-low">Price: Low to High</option><option value="price-high">Price: High to Low</option></select>
+          <form class="search pill" role="search"><label class="sr-only" for="search">Search fashion</label><input id="search" type="search" placeholder="Search"><button aria-label="Search"><svg class="icon"><use href="#icon-search"/></svg></button></form>
+        </div>
+        <div class="departments"><button class="pill" data-department="Men">Men</button><button class="pill" data-department="Women">Women</button><button class="pill" data-department="Children">Children</button><button class="pill" data-department="Accessories">Accessories</button></div>
+      </nav>
+    </header>
+
+    <main id="main-content">
+      <section class="hero" aria-label="Discover global fashion">
+        <div class="intro-card">
+          <h1>Your Ultimate Online<br class="desktop-break"> Destination for Global<br class="desktop-break"> Fashion.</h1>
+          <p>Considered pieces. Effortless style. Explore modern essentials<br class="desktop-break"> and timeless favorites for every wardrobe, every day.</p>
+          <button class="cta" id="learn-more">Learn more<span class="cta-icon"><svg class="icon"><use href="#arrow"/></svg></span></button>
+        </div>
+        <div class="fashion-card">
+          <img class="hero-image" src="images/homepage-clean.webp" alt="Woman wearing a beige coat against a warm beige background" width="1316" height="1195" fetchpriority="high">
+          <button class="cta" id="shop-now">SHOP NOW<span class="cta-icon"><svg class="icon"><use href="#small-bag"/></svg></span></button>
+        </div>
+      </section>
+
+      <section class="benefits" aria-label="Shopping benefits">
+        <div class="benefit"><svg class="icon"><use href="#truck"/></svg><div><h2>Free Shipping</h2><p>Free shipping on all orders</p></div></div>
+        <div class="benefit"><svg class="icon"><use href="#support"/></svg><div><h2>Online Support</h2><p>Here to help, every day</p></div></div>
+        <div class="benefit"><svg class="icon"><use href="#guarantee"/></svg><div><h2>Money Guarantee</h2><p>30-day money-back guarantee</p></div></div>
+        <div class="benefit"><svg class="icon"><use href="#lock"/></svg><div><h2>Secure Payment</h2><p>Shop with peace of mind</p></div></div>
+      </section>
+      <section class="collections" id="collections" aria-label="Shop fashion collections">
+        <article class="collection-card collection-men">
+          <img src="images/men-fashion-clean.webp" alt="Man wearing a camel suit and gray turtleneck" loading="lazy" width="1078" height="1459">
+          <div class="collection-copy"><h2>Four Season Fashion</h2><p>Discover timeless looks for every season.<br>Find your everyday signature style.</p><button class="collection-button" data-collection="Men’s fashion">SHOP NOW</button></div>
+        </article>
+        <div class="collection-accessories">
+          <article class="collection-card collection-shoes">
+            <img src="images/shoe-clean.webp" alt="White sneaker with a brown heel and tan sole" loading="lazy" width="1598" height="984">
+            <div class="collection-copy"><h2>Ultimate Shoes</h2><p>Step into something new.<br>Comfort meets everyday style.</p><button class="collection-button" data-collection="Shoes">SHOP NOW</button></div>
+          </article>
+          <article class="collection-card collection-watches">
+            <img src="images/watch-clean.webp" alt="Gold wristwatch with a white dial" loading="lazy" width="1617" height="973">
+            <div class="collection-copy"><h2>Ultimate Watches</h2><p>A timeless finishing touch.<br>Make every moment your own.</p><button class="collection-button" data-collection="Watches">SHOP NOW</button></div>
+          </article>
+        </div>
+        <article class="collection-card collection-women">
+          <img src="images/women-fashion-clean.webp" alt="Woman wearing a peach blazer against a coral background" loading="lazy" width="1076" height="1461">
+          <div class="collection-copy"><h2>Four Season Fashion</h2><p>Fresh styles made for every season.<br>Discover your next favorite look.</p><button class="collection-button" data-collection="Women’s fashion">SHOP NOW</button></div>
+        </article>
+      </section>
+      <section class="best-sellers" id="best-sellers" aria-labelledby="best-sellers-title">
+        <div class="section-heading"><h2 id="best-sellers-title">Best Selling Clothes</h2><p>Find your new favorite. Make it your own.</p></div>
+        <div class="product-grid">
+        <article class="product-card">
+          <div class="product-photo"><img src="images/product-dress.webp" width="1254" height="1254" alt="Effortless Knit Dress" loading="lazy"><button class="favorite" aria-label="Save Effortless Knit Dress to favorites" aria-pressed="false"><span aria-hidden="true">♡</span></button></div>
+          <h3>Effortless Knit Dress</h3><p class="product-subtitle">Effortless pieces for everyday living</p>
+          <div class="product-purchase"><strong>305$</strong><button class="buy-button" data-product="Effortless Knit Dress" data-price="305">Buy Now<span class="buy-arrow"><svg class="icon" aria-hidden="true"><use href="#arrow"/></svg></span></button></div>
+        </article>
+        <article class="product-card">
+          <div class="product-photo"><img src="images/product-old-money.webp" width="1254" height="1254" alt="Old Money Aesthetic" loading="lazy"><button class="favorite is-favorite" aria-label="Save Old Money Aesthetic to favorites" aria-pressed="true"><span aria-hidden="true">♥</span></button></div>
+          <h3>Old Money Aesthetic</h3><p class="product-subtitle">Effortless pieces for everyday living</p>
+          <div class="product-purchase"><strong>652$</strong><button class="buy-button featured-buy" data-product="Old Money Aesthetic" data-price="652">Buy Now<span class="buy-arrow"><svg class="icon" aria-hidden="true"><use href="#arrow"/></svg></span></button></div>
+        </article>
+        <article class="product-card">
+          <div class="product-photo"><img src="images/product-jacket.webp" width="1254" height="1254" alt="Brown Leather Jacket" loading="lazy"><button class="favorite" aria-label="Save Brown Leather Jacket to favorites" aria-pressed="false"><span aria-hidden="true">♡</span></button></div>
+          <h3>Brown Leather Jacket</h3><p class="product-subtitle">Effortless pieces for everyday living</p>
+          <div class="product-purchase"><strong>205$</strong><button class="buy-button" data-product="Brown Leather Jacket" data-price="205">Buy Now<span class="buy-arrow"><svg class="icon" aria-hidden="true"><use href="#arrow"/></svg></span></button></div>
+        </article>
+        <article class="product-card">
+          <div class="product-photo"><img src="images/product-girl.webp" width="1254" height="1254" alt="Tween Girl Elegant" loading="lazy"><button class="favorite" aria-label="Save Tween Girl Elegant to favorites" aria-pressed="false"><span aria-hidden="true">♡</span></button></div>
+          <h3>Tween Girl Elegant</h3><p class="product-subtitle">Effortless pieces for everyday living</p>
+          <div class="product-purchase"><strong>105$</strong><button class="buy-button" data-product="Tween Girl Elegant" data-price="105">Buy Now<span class="buy-arrow"><svg class="icon" aria-hidden="true"><use href="#arrow"/></svg></span></button></div>
+        </article>
+        </div>
+      </section>
+      <section class="trendy-section" id="trendy" aria-labelledby="trendy-title">
+        <div class="section-heading"><h2 id="trendy-title">Trending Now</h2><p>Find your new favorite. Make it your own.</p></div>
+        <div class="trendy-layout">
+          <article class="trendy-feature"><img src="images/trendy-dress.webp" width="1024" height="1536" alt="Girl wearing a brown collared jumper dress over a white blouse, beside a matching outfit display" loading="lazy"><div class="trendy-feature-copy"><h3>Girls’ Colorblock<br>Collared Jumper Dress</h3><p>Quiet luxury in warm tones and timeless details.<br>Discover a charming style for every occasion.</p><button class="collection-button" data-collection="Girls’ Colorblock Collared Jumper Dress">SHOP NOW</button></div></article>
+          <div class="trendy-grid">
+          <article class="trend-product product-card">
+            <div class="trend-photo"><img src="images/trendy-bag.webp" width="1254" height="1254" alt="Essence of Quiet Luxury — bag" loading="lazy"><button class="favorite is-favorite" aria-label="Save Essence of Quiet Luxury to favorites" aria-pressed="true"><span aria-hidden="true">♥</span></button></div>
+            <div class="trend-details"><div class="trend-meta"><span>Bag</span><span class="rating">Editor’s pick</span></div>
+            <h3>Essence of Quiet Luxury</h3><div class="product-color"><span style="background:#a5a397" aria-hidden="true"></span> Stone</div>
+            <div class="product-purchase"><strong>$339</strong><button class="buy-button featured-buy" data-product="Essence of Quiet Luxury" data-price="339">Buy Now<span class="buy-arrow"><svg class="icon" aria-hidden="true"><use href="#arrow"/></svg></span></button></div></div>
+          </article>
+          <article class="trend-product product-card">
+            <div class="trend-photo"><img src="images/trendy-hat.webp" width="1254" height="1254" alt="Sophistication Above All — cap" loading="lazy"><button class="favorite is-favorite" aria-label="Save Sophistication Above All to favorites" aria-pressed="true"><span aria-hidden="true">♥</span></button></div>
+            <div class="trend-details"><div class="trend-meta"><span>Hat</span><span class="rating">Editor’s pick</span></div>
+            <h3>Sophistication Above All</h3><div class="product-color"><span style="background:#ebe6d7" aria-hidden="true"></span> Ivory</div>
+            <div class="product-purchase"><strong>$339</strong><button class="buy-button featured-buy" data-product="Sophistication Above All" data-price="339">Buy Now<span class="buy-arrow"><svg class="icon" aria-hidden="true"><use href="#arrow"/></svg></span></button></div></div>
+          </article>
+          <article class="trend-product product-card">
+            <div class="trend-photo"><img src="images/trendy-belt.webp" width="1254" height="1254" alt="Defining Your Silhouette — belt" loading="lazy"><button class="favorite is-favorite" aria-label="Save Defining Your Silhouette to favorites" aria-pressed="true"><span aria-hidden="true">♥</span></button></div>
+            <div class="trend-details"><div class="trend-meta"><span>Belt</span><span class="rating">Editor’s pick</span></div>
+            <h3>Defining Your Silhouette</h3><div class="product-color"><span style="background:#79503c" aria-hidden="true"></span> Chestnut</div>
+            <div class="product-purchase"><strong>$339</strong><button class="buy-button featured-buy" data-product="Defining Your Silhouette" data-price="339">Buy Now<span class="buy-arrow"><svg class="icon" aria-hidden="true"><use href="#arrow"/></svg></span></button></div></div>
+          </article>
+          <article class="trend-product product-card">
+            <div class="trend-photo"><img src="images/trendy-shirt.webp" width="1254" height="1254" alt="Effortlessly Stylish Clothing — t-shirt" loading="lazy"><button class="favorite is-favorite" aria-label="Save Effortlessly Stylish Clothing to favorites" aria-pressed="true"><span aria-hidden="true">♥</span></button></div>
+            <div class="trend-details"><div class="trend-meta"><span>T-shirt</span><span class="rating">Editor’s pick</span></div>
+            <h3>Effortlessly Stylish Clothing</h3><div class="product-color"><span style="background:#a09585" aria-hidden="true"></span> Taupe</div>
+            <div class="product-purchase"><strong>$339</strong><button class="buy-button featured-buy" data-product="Effortlessly Stylish Clothing" data-price="339">Buy Now<span class="buy-arrow"><svg class="icon" aria-hidden="true"><use href="#arrow"/></svg></span></button></div></div>
+          </article>
+          </div>
+        </div>
+      </section>
+      <section class="fashion-offer" id="fashion-offer" aria-label="Timeless fashion and seasonal offer">
+        <div class="timeless-panel">
+          <div class="timeless-copy"><h2>Timeless Fashion<br>For Every Wardrobe</h2><p>Quiet Luxury: Premium high-quality materials<br>such as cashmere, linen, silk, and wool.</p><button class="timeless-button" data-collection="Timeless Fashion">GET NOW</button></div>
+          <img class="timeless-model" src="images/timeless-model.webp" width="1206" height="1305" alt="Woman wearing a straw hat, white top and blue jeans" loading="lazy">
+        </div>
+        <div class="discount-panel">
+          <img class="discount-background" src="images/offer-clothing-rack.webp" width="1145" height="1374" alt="Pastel clothing arranged on a boutique rack" loading="lazy">
+          <div class="discount-content"><div><h2>Up To</h2><p>On Our Collection</p></div><strong class="discount-amount">35%</strong><button class="collection-button" data-collection="Up to 35% off">GET NOW</button></div>
+        </div>
+      </section>
+      <section class="all-cloths" id="all-cloths" aria-labelledby="all-cloths-title">
+        <div class="section-heading"><h2 id="all-cloths-title">The Complete Collection</h2><p>Find your new favorite. Make it your own.</p></div>
+        <div class="catalog-grid">
+          <article class="catalog-card">
+            <div class="catalog-photo"><img src="images/all-tatlum.webp" width="1495" height="1052" alt="Women’s Relaxed Shirt" loading="lazy"><button class="favorite is-favorite" aria-label="Save Women’s Relaxed Shirt to favorites" aria-pressed="true"><span aria-hidden="true">♥</span></button></div>
+            <div class="catalog-title-row"><h3>Women’s Relaxed Shirt</h3><span class="catalog-rating">The style edit</span></div>
+            <p class="catalog-description">A fresh take on your everyday wardrobe.</p>
+            <div class="catalog-purchase"><strong>165$</strong><button class="add-to-cart" data-cart-product="Women’s Relaxed Shirt" data-cart-price="165"><span aria-hidden="true">+</span> Cart</button></div>
+          </article>
+          <article class="catalog-card">
+            <div class="catalog-photo"><img src="images/all-quiet.webp" width="1494" height="1053" alt="Quiet Luxury Outfit" loading="lazy"><button class="favorite" aria-label="Save Quiet Luxury Outfit to favorites" aria-pressed="false"><span aria-hidden="true">♡</span></button></div>
+            <div class="catalog-title-row"><h3>Quiet Luxury Outfit</h3><span class="catalog-rating">The style edit</span></div>
+            <p class="catalog-description">A fresh take on your everyday wardrobe.</p>
+            <div class="catalog-purchase"><strong>265$</strong><button class="add-to-cart" data-cart-product="Quiet Luxury Outfit" data-cart-price="265"><span aria-hidden="true">+</span> Cart</button></div>
+          </article>
+          <article class="catalog-card">
+            <div class="catalog-photo"><img src="images/all-sunglasses.webp" width="1494" height="1053" alt="Gold-Frame Sunglasses" loading="lazy"><button class="favorite" aria-label="Save Gold-Frame Sunglasses to favorites" aria-pressed="false"><span aria-hidden="true">♡</span></button></div>
+            <div class="catalog-title-row"><h3>Gold-Frame Sunglasses</h3><span class="catalog-rating">The style edit</span></div>
+            <p class="catalog-description">A fresh take on your everyday wardrobe.</p>
+            <div class="catalog-purchase"><strong>185$</strong><button class="add-to-cart" data-cart-product="Gold-Frame Sunglasses" data-cart-price="185"><span aria-hidden="true">+</span> Cart</button></div>
+          </article>
+          <article class="catalog-card">
+            <div class="catalog-photo"><img src="images/all-cutout.webp" width="1491" height="1055" alt="Girls’ White Dress" loading="lazy"><button class="favorite" aria-label="Save Girls’ White Dress to favorites" aria-pressed="false"><span aria-hidden="true">♡</span></button></div>
+            <div class="catalog-title-row"><h3>Girls’ White Dress</h3><span class="catalog-rating">The style edit</span></div>
+            <p class="catalog-description">A fresh take on your everyday wardrobe.</p>
+            <div class="catalog-purchase"><strong>105$</strong><button class="add-to-cart" data-cart-product="Girls’ White Dress" data-cart-price="105"><span aria-hidden="true">+</span> Cart</button></div>
+          </article>
+          <article class="catalog-card">
+            <div class="catalog-photo"><img src="images/all-casual.webp" width="1494" height="1053" alt="Effortlessly Stylish Clothing" loading="lazy"><button class="favorite" aria-label="Save Effortlessly Stylish Clothing to favorites" aria-pressed="false"><span aria-hidden="true">♡</span></button></div>
+            <div class="catalog-title-row"><h3>Effortlessly Stylish Clothing</h3><span class="catalog-rating">The style edit</span></div>
+            <p class="catalog-description">A fresh take on your everyday wardrobe.</p>
+            <div class="catalog-purchase"><strong>305$</strong><button class="add-to-cart" data-cart-product="Effortlessly Stylish Clothing" data-cart-price="305"><span aria-hidden="true">+</span> Cart</button></div>
+          </article>
+          <article class="catalog-card">
+            <div class="catalog-photo"><img src="images/all-kids.webp" width="1495" height="1052" alt="Kids’ Tweed Set" loading="lazy"><button class="favorite" aria-label="Save Kids’ Tweed Set to favorites" aria-pressed="false"><span aria-hidden="true">♡</span></button></div>
+            <div class="catalog-title-row"><h3>Kids’ Tweed Set</h3><span class="catalog-rating">The style edit</span></div>
+            <p class="catalog-description">A fresh take on your everyday wardrobe.</p>
+            <div class="catalog-purchase"><strong>365$</strong><button class="add-to-cart" data-cart-product="Kids’ Tweed Set" data-cart-price="365"><span aria-hidden="true">+</span> Cart</button></div>
+          </article>
+        </div>
+      </section>
+      <section class="testimonials" aria-labelledby="testimonials-title">
+        <div class="testimonials-top"><div class="testimonial-labels"><span>The Fashion Edit</span><span class="testimonial-pill">A little style inspiration</span></div><div class="testimonial-navigation"><button class="testimonial-previous" aria-label="Previous style note">←</button><button class="testimonial-next" aria-label="Next style note">→</button></div><h2 id="testimonials-title">Good style.<br>Every day.</h2></div>
+        <figure class="testimonial-quote"><blockquote id="testimonial-text" aria-live="polite">Start with a neutral foundation. Add texture, a considered accessory, and a little of your own personality.</blockquote><figcaption id="testimonial-author">01 / 03 — The everyday edit</figcaption></figure>
+      </section>
+      <p class="cart-feedback sr-only" role="status" aria-live="polite"></p>
+    </main>
+    <footer class="site-footer">
+      <div class="footer-top"><div class="footer-brand"><a href="#main-content" class="wordmark">FASHION<span>®</span></a><p>Timeless pieces. A fresh perspective.<br>A wardrobe that feels like you.</p></div><div class="footer-column"><h2>Explore</h2><a href="#collections">The collections</a><a href="#best-sellers">Best sellers</a><a href="#trendy">Trending now</a><a href="#all-cloths">Shop everything</a></div><div class="footer-column"><h2>Here to help</h2><button data-info="delivery">Delivery &amp; returns</button><button data-info="sizing">Size guide</button><button data-info="care">Clothing care</button><button data-info="contact">Contact &amp; FAQs</button></div><div class="footer-note"><span class="eyebrow">YOUR NEXT FAVORITE AWAITS</span><h2>A little more<br>style in your day.</h2><button class="footer-join">Join the edit <span aria-hidden="true">↗</span></button></div></div>
+      <div class="footer-bottom"><span>© <span id="copyright-year">2026</span> Fashion. All rights reserved.</span><div><button data-info="privacy">Privacy</button><button data-info="terms">Terms</button><a href="#main-content">Back to top ↑</a></div></div>
+    </footer>
+  </div>
+  <dialog id="information" aria-labelledby="dialog-title"><button class="close-dialog" aria-label="Close dialog">×</button><h2 id="dialog-title"></h2><p id="dialog-description"></p></dialog>
+  <div class="toast" role="status" aria-live="polite"></div>
+  <script src="js/main.js"></script>
+</body>
+</html>
