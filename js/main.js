@@ -153,6 +153,7 @@ menuButton.setAttribute('aria-expanded', 'true');
 menuButton.addEventListener('click', () => {
   const expanded = menuButton.getAttribute('aria-expanded') !== 'true';
   menuButton.setAttribute('aria-expanded', String(expanded));
+  $('use', menuButton).setAttribute('href', expanded ? '#menu-close' : '#menu');
   $('#main-navigation').hidden = !expanded;
 });
 $$('[data-department]').forEach(button => button.addEventListener('click', () => browse({ department: button.dataset.department })));
